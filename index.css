@@ -1,0 +1,170 @@
+body {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#centerCircle{
+  position: absolute;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  margin-top: 270px;
+  margin-left: 490px;
+  opacity: .75;
+  background-color: black;
+}
+
+#circles{
+  display: block;
+  margin-left: 10vw;
+  
+}
+
+
+#circle1{
+  opacity: .75;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 400px;
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: black;
+}
+
+#colorName1{
+  transition-duration: 1s;
+  opacity: 0;
+  font-family: roboto;
+  font-size: 20px;
+  margin-top: 40%;
+  text-align: center;
+}
+
+#colorName1:hover {
+  opacity: 1;
+  transition-duration: 1s;
+}
+
+#circle2{
+  opacity: .75;
+  position: absolute;
+  margin-top: 140px;
+  margin-left: 290px;
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: black;
+}
+
+#colorName2{
+  opacity: 0;
+  font-family: roboto;
+  font-size: 20px;
+  margin-top: 40%;
+  text-align: center;
+}
+
+#colorName2:hover {
+  opacity: 1;
+  transition-duration: 1s;
+}
+
+#circle3{
+    opacity: .75;
+  position: absolute;
+  margin-top: 140px;
+  margin-left: 510px;
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: black;
+}
+
+#colorName3{
+  opacity: 0;
+  font-family: roboto;
+  font-size: 20px;
+  margin-top: 40%;
+  text-align: center;
+}
+
+#colorName3:hover {
+  opacity: 1;
+  transition-duration: 1s;
+}
+
+#circle4{
+    opacity: .75;
+  position: absolute;
+  margin-top: 280px;
+  margin-left: 325px;
+  margin-right: auto;
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: black;
+}
+
+#colorName4{
+  opacity: 0;
+  font-family: roboto;
+  font-size: 20px;
+  margin-top: 40%;
+ text-align: center
+  
+}
+
+#colorName4:hover {
+  opacity: 1;
+  transition-duration: 1s;
+}
+
+#circle5{
+  opacity: .75;
+  position: absolute;
+  margin-top: 280px;
+  margin-left: 475px;
+  display: block;
+  width: 200px;
+  height:200px;
+  border-radius: 100%;
+  background-color: black;
+  margin-bottom: 100px;
+}
+
+#colorName5{
+  opacity: 0;
+  font-family: roboto;
+  font-size: 20px;
+  margin-top: 40%;
+  text-align: center;
+}
+
+#colorName5:hover {
+  opacity: 1;
+  transition-duration: 1s;
+}
+
+
+
+
+@keyframes pulse {
+  0%, 100%{
+    transform: scale(1);
+  }
+  
+  50%{
+    transform: scale(.75);
+  }
+}
+
+
+
